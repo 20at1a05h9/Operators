@@ -1,0 +1,23 @@
+tkinter USING FUNCTIONS
+#write a python to determine grade of student
+'''from pyexpat.errors import messages
+from tkinter import*
+from tkinter import messagebox
+
+
+
+window=Tk()
+window.config(bg="blue")
+window.geometry("350x400")
+
+def grad():
+    score=int(e1.get())
+    if score >= 90:
+        messagebox.showinfo("RESUL","A grede")
+    elif score >= 80 and score < 90:
+        messagebox.showinfo("RESULT","B grade")
+    elif score >= 70 and score < 80:
+        messagebox.showinfo("RESULT","C grade")
+    elif score >= 60 and score < 70:
+        messagebox.showinfo("RESULT","D grade")
+    else:
